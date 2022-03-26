@@ -1,3 +1,6 @@
+Original App Design Project - README Template
+===
+
 # Bookify
 
 ## Table of Contents
@@ -11,14 +14,14 @@
 Bookify is a simple app that allows users to find books through Google Books database.
 
 ### App Evaluation
-[Evaluation of your app across the following attributes]
-https://courses.codepath.com/courses/ios_university/pages/group_project/01_app_brainstorming_guide#heading-evaluating-app-ideas-protocol
-- **Category:**
-- **Mobile:**
-- **Story:**
-- **Market:**
+- **Category:** Book/ Education
+- **Mobile:** Update new books and user reviews in real time 
+- **Story:** Allow users to research about books, manage their books, and have recommendations on new books to read
+- **Market:** Anyone who reads books can utilize the app to track their books and find new books. 
 - **Habit:**
-- **Scope:**
+    * Users can use the app multiple times a day to research new books 
+    * Features such as "Random book recommender" will recommend books for users to continue reading
+- **Scope:** Start out small with just viewing book info and liking books. Optional user stories include random book recommendation. In further version, can be exapnded into a social network of book readers where each user has a book profile and can interact to talk about their book preferences with each other. 
 
 ## Product Spec
 
@@ -43,7 +46,7 @@ https://courses.codepath.com/courses/ios_university/pages/group_project/01_app_b
     * save book
 
 ### 2. Screen Archetypes
-https://guides.codepath.org/android/Mobile-Screen-Archetypes
+
 
 * Login page
    * User can login
@@ -72,7 +75,6 @@ https://guides.codepath.org/android/Mobile-Screen-Archetypes
 * (Book page presented modally) 
 
 **Flow Navigation** (Screen to Screen)
-example: https://hackmd.io/@nesquena/H1wGpVUh7?type=view
 
 * Register page
     * Home page
@@ -84,7 +86,7 @@ example: https://hackmd.io/@nesquena/H1wGpVUh7?type=view
 
 * Settings page
 * Profile page
-* Bookshelf page
+* Bookshelf page [Stream]
 
 * Book page
     - like
