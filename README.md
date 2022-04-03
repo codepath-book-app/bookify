@@ -1,6 +1,3 @@
-Original App Design Project - README Template
-===
-
 # Bookify
 
 ## Table of Contents
@@ -124,7 +121,35 @@ Bookify is a simple app that allows users to find books through Google Books dat
 ## Schema 
 [This section will be completed in Unit 9]
 ### Models
-[Add table of models]
+#### user
+| Property  | Type | Description |
+| ------------- | ------------- | ------------- |
+| userId  | String  | unique id for the user (default field)|
+| likedBooks  | List(book)  | List of liked books |
+| viewedBooks  | List(book)  | List of viewed books |
+| writtenrReviews  | List(review)  | written reviews from this user |
+
+
+#### book
+| Property  | Type | Description |
+| ------------- | ------------- | ------------- |
+| bookId  | String  | unique id for the book (default field)|
+| synopsis  | String  | book synopsis |
+| image  | File  | book snapshot |
+| author  | String  | book author |
+| publishDate  | DateTime  | book pubished date |
+| reviews  | List(review)  | book reviews |
+
+#### review
+| Property  | Type | Description |
+| ------------- | ------------- | ------------- |
+| reviewId  | String  | unique id for the review (default field)|
+| userID  | String  | unique id for the user  |
+| bookId  | String  | unique id for the book (default field)|
+| publishDate  | DateTime  | review pubished date |
+| reviewText  | String  | review content |
+
+
 ### Networking
 - [Add list of network requests by screen ]
 - [Create basic snippets for each Parse network request]
